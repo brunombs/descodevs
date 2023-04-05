@@ -1,0 +1,62 @@
+/* Reset de estilos do navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para o header */
+header {
+    background-color: darkslateblue;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o corpo da página */
+#corpo {
+    padding: 20px;
+}
+
+.explicacao {
+    margin-bottom: 30px;
+}
+
+.projetos li {
+    margin-bottom: 20px;
+    list-style: none;
+    color: white;
+}
+
+.projetos img {
+    max-width: 100%;
+}
+
+.contato {
+    margin-top: 30px;
+}
+
+.projetos{
+    background-color: darkslateblue;
+    color: white;
+}
