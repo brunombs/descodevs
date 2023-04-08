@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+<header>
         <div class="logo">
             <h1>DescoDevs</h1>
         </div>
@@ -22,37 +22,50 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-    </header>
-    <section id="corpo">
-        <div class="explicacao">
+</header>
+<section id="corpo">
+    <div class="explicacao">
             <h2>DescoDevs</h2>
             <p>Somos alunos do curso Análise e Desenvolvimento de Sistemas da Descomplica <br>e criamos esse projeto para exercitar os nossos conhecimentos.</p>
+    </div>
+    <div class="projetos" id="projetos">
+        <h2>Nossos Projetos</h2>
+        <div class="container">
+            <div id="projetos-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#projetos-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#projetos-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+                <div class="carousel-inner">
+                    <div class="row">
+                        <div class="col-md-6 carousel-item active">
+                            <img class="projeto-img" src="https://i.pinimg.com/564x/0f/62/65/0f6265fe8dc448b8f032f161db77c033.jpg" class="d-block w-100" alt="...">
+                            <h2 class="projeto-texto">Aqui é a descrição do nosso primeiro projeto.</h2>
+                        </div>
+                        <div class="col-md-6 carousel-item">
+                            <img class="projeto-img" src="https://i.pinimg.com/564x/6e/59/6a/6e596a41c746d8c4ada6721f7313aeec.jpg" class="d-block w-100" alt="...">
+                            <h2 class="projeto-texto">Aqui é a descrição do nosso segundo projeto.</h2>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projetos-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#projetos-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="projetos" id="projetos">
-            <h2>Nossos Projetos</h2>
-            <ul>
-                <li>
-                    <h3>Projeto 1</h3>
-                    <p>Nesse projeto nós fizemos uma página de currículo em HTML/CSS</p>
-                </li>
-                <li>
-                    <h3>Projeto 2</h3>
-                    <p>Nesse projeto nós fizemos uma página de login.</p>
-                </li>
-                <li>
-                    <h3>Projeto 3</h3>
-                    <p>Nesse projeto nós fizemos uma réplica do twitter.</p>
-                </li>
-            </ul>
-        </div>
+</section>
+
+<section id="contato">
         <div class="contato" id="contato">
             <h2>Contato</h2>
-            <a class="btn btn-outline-secondary" href="https://chat.whatsapp.com/EVPpTu35mPjITCOmFkWMfY"><i class="fab fa-whatsapp"></i> WhatsApp</a> 
-            <a class="btn btn-outline-secondary" href="https://discord.gg/xHQExWe5"><i class="fab fa-discord"></i> Discord</a> 
-            <a class="btn btn-outline-secondary" href="https://trello.com/invite/b/N1z6S8TA/ATTIec3da3c3e2431e517f6dd3d13dffefd11DAD1DE0/main"><i class="fab fa-trello"></i> Trello</a> 
             <a class="btn btn-outline-secondary" href="https://github.com/brunombs/descodevs"><i class="fab fa-github"></i> GitHub</a> 
-            <a class="btn btn-outline-secondary" href="https://www.figma.com/team_invite/redeem/qjYnueXFqC7GfW5Vm28W2W"><i class="fab fa-figma"></i> Figma</a> 
         </div>
-    </section>
+</section>
 </body>
 </html>

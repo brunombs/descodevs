@@ -54,9 +54,23 @@ nav ul li a {
 
 .contato {
     margin-top: 30px;
+    padding: 1%;
 }
 
 .projetos{
     background-color: darkslateblue;
     color: white;
+}
+
+.projeto-img{
+    width: 15%;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.projeto-texto{
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
